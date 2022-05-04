@@ -19,8 +19,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1212
     y: -457
-    width: 2062
-    height: 2428
+    width: 2094
+    height: 2408
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.7837753295898438,"g":0.9716981053352356,"b":0.9450262784957886,"a":0.0}'
+      m_SerializableObject: '{"r":0.668189287185669,"g":1.0,"b":0.2594339847564697,"a":0.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -82,7 +82,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.20000000298023225,"y":0.3499999940395355}'
+      m_SerializableObject: '{"x":0.15000000596046449,"y":0.05000000074505806}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -110,7 +110,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":1.5}'
+      m_SerializableObject: '{"x":0.029999999329447748,"y":1.5}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1596,6 +1596,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs: []
   cullMode: 0
   zWriteMode: 0
@@ -1610,6 +1611,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: 0}
   primitiveType: 1
   useGeometryShader: 0
@@ -2536,6 +2538,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs: []
   cullMode: 0
   zWriteMode: 0
@@ -2550,6 +2553,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: 0}
   primitiveType: 1
   useGeometryShader: 0
@@ -6194,6 +6198,7 @@ MonoBehaviour:
   blendMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
+  excludeFromTAA: 0
   m_SubOutputs: []
   cullMode: 0
   zWriteMode: 0
@@ -6208,6 +6213,7 @@ MonoBehaviour:
   frustumCulling: 0
   castShadows: 0
   useExposureWeight: 0
+  flipbookLayout: 0
   shaderGraph: {fileID: -5475051401550479605, guid: 600938a872bb8b54b9f0937bb51c503e,
     type: 3}
   MeshCount: 1
@@ -6942,7 +6948,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.7837753295898438,"g":0.9716981053352356,"b":0.9450262784957886,"a":0.0}'
+      m_SerializableObject: '{"r":0.668189287185669,"g":1.0,"b":0.2594339847564697,"a":0.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7158,7 +7164,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.20000000298023225,"y":0.3499999940395355}'
+      m_SerializableObject: '{"x":0.15000000596046449,"y":0.05000000074505806}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7381,7 +7387,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":1.5}'
+      m_SerializableObject: '{"x":0.029999999329447748,"y":1.5}'
     m_Space: 2147483647
   m_Property:
     name: o

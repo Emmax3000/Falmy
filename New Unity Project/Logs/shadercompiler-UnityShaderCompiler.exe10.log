@@ -1,0 +1,10 @@
+Base path: 'D:/UNIty/2021.1.14f1/Editor/Data', plugins path 'D:/UNIty/2021.1.14f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=7165 file=D:/my stuff/Unity/Projects/SPEAR/Falmy/New Unity Project/Assets/VR Beginner/VFX/FireBoy/FireBoy.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=202119> pKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=7589
+
+Cmd: compileComputeKernel
+  insize=7091 file=D:/my stuff/Unity/Projects/SPEAR/Falmy/New Unity Project/Assets/VR Beginner/VFX/FireBoy/FireBoy.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=202119> pKW=UNITY_NO_DXT5nm UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_LIGHTMAP_DLDR_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=6970
+
+Cmd: shutdown
