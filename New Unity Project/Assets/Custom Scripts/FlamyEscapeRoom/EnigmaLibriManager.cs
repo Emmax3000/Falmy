@@ -9,11 +9,16 @@ public class EnigmaLibriManager : MonoBehaviour
     public UnityEvent OnRipiano1;
     public UnityEvent OnRipiano2;
     public UnityEvent OnRipiano3;
+    public UnityEvent OnRipiano4;
+    public UnityEvent OnRipiano5;
+    public UnityEvent OnRunaCorrect;
     public UnityEvent EnigmaLibriCompletato;
 
     public bool ripiano1Corretto;
     public bool ripiano2Corretto;
     public bool ripiano3Corretto;
+    public bool ripiano4Corretto;
+    public bool ripiano5Corretto;
 
     public void OnLibroPosizionato()
     {
@@ -41,10 +46,27 @@ public class EnigmaLibriManager : MonoBehaviour
         ControlloProgressoEnigmaQuadri();
     }
 
+    public void OnRipiano4Correct()
+    {
+        OnRipiano4.Invoke();
+        ripiano3Corretto = true;
+        ControlloProgressoEnigmaQuadri();
+    }
+    public void OnRipiano5Correct()
+    {
+        OnRipiano5.Invoke();
+        ripiano3Corretto = true;
+        ControlloProgressoEnigmaQuadri();
+    }
+
     public void ControlloProgressoEnigmaQuadri()
     {
-        if (ripiano1Corretto && ripiano2Corretto && ripiano3Corretto)
+        if (ripiano1Corretto && ripiano2Corretto && ripiano3Corretto && ripiano4Corretto && ripiano5Corretto)
         EnigmaLibriCompletato.Invoke();
 
+    }
+    public void OnRunaPlaced()
+    {
+        OnRunaCorrect.Invoke();
     }
 }

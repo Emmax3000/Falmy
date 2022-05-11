@@ -124,6 +124,9 @@ namespace Unity.VisualScripting.Generated.Aot
 	// MagicReceiver.op_Equality
 	// MagicReceiver.op_Implicit
 	// MagicReceiver.op_Inequality
+	// MagicReceiverNotCalderon.op_Equality
+	// MagicReceiverNotCalderon.op_Implicit
+	// MagicReceiverNotCalderon.op_Inequality
 	// MagicTractorBeam.op_Equality
 	// MagicTractorBeam.op_Implicit
 	// MagicTractorBeam.op_Inequality
@@ -2170,6 +2173,41 @@ namespace Unity.VisualScripting.Generated.Aot
 		// MagicReceiver.op_Inequality
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void MagicReceiver_op_Inequality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 != arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// MagicReceiverNotCalderon.op_Equality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void MagicReceiverNotCalderon_op_Equality()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);
+			bool @operator = (arg0 == arg1);
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// MagicReceiverNotCalderon.op_Implicit
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void MagicReceiverNotCalderon_op_Implicit()
+		{
+			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
+			bool conversion = ((bool)(arg0));
+			global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<UnityEngine.Object, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// MagicReceiverNotCalderon.op_Inequality
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void MagicReceiverNotCalderon_op_Inequality()
 		{
 			global::UnityEngine.Object arg0 = default(global::UnityEngine.Object);
 			global::UnityEngine.Object arg1 = default(global::UnityEngine.Object);

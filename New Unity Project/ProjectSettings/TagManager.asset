@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Ignite
   - Ciocchi
+  - PaintingB
+  - BookRed
+  - BookYellow
+  - BookGreen
+  - RUNA
   layers:
   - Default
   - TransparentFX
